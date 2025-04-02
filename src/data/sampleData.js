@@ -105,5 +105,26 @@ export const sampleProfiles = [
       phone: '989978798889'
     },
     interests: ['JavaScript', 'Open Source', 'Basketball']
+  },
+  {
+    id: 6,
+    name: 'Rohan',
+    photo: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    description: 'Data Analyst specializing in business intelligence and statistical analysis',
+    address: {
+      street: '456',
+      city: 'Vadodara',
+      state: 'GJ',
+      zipcode: '390001',
+      coordinates: {
+        longitude: 73.18124532587261,
+        latitude: 22.31952634891257
+      }
+    },
+    contact: {
+      email: 'rohan@example.com',
+      phone: '8877665544'
+    },
+    interests: ['Data Visualization', 'Statistics', 'Machine Learning']
   }
 ];
